@@ -1,0 +1,43 @@
+.key {
+  border: 3px solid #600cac;
+  background-color: white;
+  border-radius: 30%;
+  width: 5vw;
+  height: 5vw;
+  transition: 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+
+  .letter {
+    color: #600cac;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  &:hover {
+    background-color: #600cac;
+
+    .letter {
+      color: white;
+    }
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.down {
+  background-color: #600cac;
+  .letter {
+    color: white;
+  }
+}

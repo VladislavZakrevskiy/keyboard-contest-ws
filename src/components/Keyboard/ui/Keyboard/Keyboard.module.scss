@@ -1,0 +1,11 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+    .letter_collumn {
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+    }
+}
